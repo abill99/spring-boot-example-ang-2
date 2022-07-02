@@ -1,0 +1,440 @@
+
+{
+
+"info": [
+
+  {
+
+     "type": "mcq",
+
+     "widget_type": "response",
+
+     "reference": "2621858c-5abc-49bd-92db-53ba08dd286b",
+
+     "data": {
+
+        "options": [
+
+           {
+
+              "label": "to&nbsp;entertain readers with stories about organizations",
+
+              "value": "0"
+
+           },
+
+           {
+
+              "label": "to&nbsp;inform readers about ways people volunteer",
+
+              "value": "1"
+
+           },
+
+           {
+
+              "label": "to&nbsp;convince readers that volunteering is important",
+
+              "value": "2"
+
+           },
+
+           {
+
+              "label": "to&nbsp;explain how readers can contribute in their communities",
+
+              "value": "3"
+
+           }
+
+        ],
+
+!!NEW LINE:        "stimulus": "What is the author's <strong>main</strong> purpose?",
+
+        "type": "mcq",
+
+        "validation": {
+
+           "scoring_type": "exactMatch",
+
+           "valid_response": {
+
+              "score": 1,
+
+              "value": [
+
+                 "1"
+
+              ]
+
+           }
+
+        },
+
+        "ui_style": {
+
+           "type": "horizontal"
+
+        }
+
+     },
+
+     "metadata": {
+
+        "name": "Multiple choice – standard",
+
+        "template_reference": "9e8149bd-e4d8-4dd6-a751-1a113a4b9163"
+
+     }
+
+  },
+
+  {
+
+     "type": "mcq",
+
+     "widget_type": "response",
+
+     "reference": "e5a5d13f-125c-4a32-b9a0-a80498a2f76b",
+
+     "data": {
+
+        "options": [
+
+           {
+
+              "label": "In&nbsp;<em>Divided Loyalties</em>, the author states that The colonists followed British laws and paid British taxes.",
+
+              "value": "0"
+
+           },
+
+           {
+
+              "label": "In&nbsp;<em>Divided Loyalties</em>, the author states that, \"The colonists followed British laws and paid British taxes.\"",
+
+              "value": "1"
+
+           },
+
+           {
+
+              "label": "In&nbsp;<em>Divided Loyalties</em>, the author states that \"The colonists followed British laws and paid British taxes\"",
+
+              "value": "3"
+
+           },
+
+           {
+
+              "label": "In&nbsp;<em>Divided Loyalties</em>, the author states that the colonists followed British laws, and paid British taxes.",
+
+              "value": "2"
+
+           }
+
+        ],
+
+!!NEW LINE:        "stimulus": "Select the sentence with correct punctuation.",
+
+        "type": "mcq",
+
+        "validation": {
+
+           "scoring_type": "exactMatch",
+
+           "valid_response": {
+
+              "score": 1,
+
+              "value": [
+
+                 "1"
+
+              ]
+
+           }
+
+        },
+
+        "ui_style": {
+
+           "type": "horizontal"
+
+        }
+
+     },
+
+     "metadata": {
+
+        "name": "Multiple choice – standard",
+
+        "template_reference": "9e8149bd-e4d8-4dd6-a751-1a113a4b9163"
+
+     }
+
+  },
+
+  {
+
+     "type": "mcq",
+
+     "widget_type": "response",
+
+     "reference": "0c7bd8a0-81ac-4292-a680-35598df96a56",
+
+     "data": {
+
+        "options": [
+
+           {
+
+              "label": "\\(3.35\\times10^{-8}\\)",
+
+              "value": "0"
+
+           },
+
+           {
+
+              "label": "\\(5.6\\times10^{-17}\\)",
+
+              "value": "2"
+
+           },
+
+           {
+
+              "label": "\\(3.35\\times10^{-9}\\)",
+
+              "value": "1"
+
+           },
+
+           {
+
+              "label": "\\(5.6\\times20^{-17}\\)",
+
+              "value": "3"
+
+           }
+
+        ],
+
+!!NEW LINE:        "stimulus": "What is the sum of <math> <mn>3.1</mn> <mo>×<!-- × --></mo> <msup> <mrow class=\"MJX-TeXAtom-ORD\"> <mn>10</mn> </mrow> <mrow class=\"MJX-TeXAtom-ORD\"> <mo>−<!-- − --></mo> <mn>8</mn> </mrow> </msup> </math> and <math> <mn>2.5</mn> <mo>×<!-- × --></mo> <msup> <mrow class=\"MJX-TeXAtom-ORD\"> <mn>10</mn> </mrow> <mrow class=\"MJX-TeXAtom-ORD\"> <mo>−<!-- − --></mo> <mn>9</mn> </mrow> </msup> </math> written in scientific notation?",
+
+        "type": "mcq",
+
+        "validation": {
+
+           "scoring_type": "exactMatch",
+
+           "valid_response": {
+
+              "score": 1,
+
+              "value": [
+
+                 "0"
+
+              ]
+
+           }
+
+        },
+
+        "is_math": true,
+
+        "ui_style": {
+
+           "type": "horizontal"
+
+        }
+
+     },
+
+     "metadata": {
+
+        "name": "Multiple choice – standard",
+
+        "template_reference": "9e8149bd-e4d8-4dd6-a751-1a113a4b9163"
+
+     }
+
+  },
+
+  {
+
+     "type": "mcq",
+
+     "widget_type": "response",
+
+     "reference": "b4999f5c-d9e4-4c74-a78e-a5d9d449314a",
+
+     "data": {
+
+        "options": [
+
+           {
+
+              "label": "They show important events that occurred before the American Revolution.",
+
+              "value": "3"
+
+           },
+
+           {
+
+              "label": "They show the location of Burlington, New Jersey in the American Colonies.",
+
+              "value": "1"
+
+           },
+
+           {
+
+              "label": "They list the acts that were passed by Great Britain and the British government.",
+
+              "value": "2"
+
+           },
+
+           {
+
+              "label": "They list important events or steps that occurred to make the first American flag.",
+
+              "value": "0"
+
+           }
+
+        ],
+
+!!NEW LINE:        "stimulus": "<p>Read pages 4 and 5 of&nbsp;<em>Divided Loyalties</em>&nbsp;by Gare Thompson&nbsp;and answer the following question.</p>\n\n<p>What do the events on the timeline on pages 4 and 5 have in common?</p>\n",
+
+        "type": "mcq",
+
+        "validation": {
+
+           "scoring_type": "exactMatch",
+
+           "valid_response": {
+
+              "score": 1,
+
+              "value": [
+
+                 "3"
+
+              ]
+
+           }
+
+        },
+
+        "ui_style": {
+
+           "type": "horizontal"
+
+        }
+
+     },
+
+     "metadata": {
+
+        "name": "Multiple choice – standard",
+
+        "template_reference": "9e8149bd-e4d8-4dd6-a751-1a113a4b9163"
+
+     }
+
+  },
+
+  {
+
+     "type": "mcq",
+
+     "widget_type": "response",
+
+     "reference": "8e407f7a-a3fd-4b8b-92f8-c08dead458a4",
+
+     "data": {
+
+        "options": [
+
+          {
+
+              "label": "\"In the 1770s. Burlington, New Jersey, was caught up in these questions of loyalty.\"",
+
+              "value": "0"
+
+           },
+
+           {
+
+              "label": "\"There and elsewhere, the conflict between Patriots and Loyalists divided friends and families.\"",
+
+              "value": "1"
+
+           },
+
+           {
+
+              "label": "\"The colonists followed British laws and paid British taxes. They were also citizens of Great Britain.\"",
+
+              "value": "3"
+
+           },
+
+           {
+
+              "label": "\"The Patriots wanted to set up their own government with their own laws . . . Loyalists, were proud to be part of Great Britain.\"",
+
+              "value": "2"
+
+           }
+
+        ],
+
+!!NEW LINE:        "stimulus": "<p>Read pages 4 and 5 of&nbsp;<em>Divided Loyalties</em>&nbsp;by Gare Thompson&nbsp;and answer the following question.</p>\n\n<p><strong>Part B</strong></p>\n\n<p>Which detail from the text explains why the conflict occurred?</p>\n",
+
+        "type": "mcq",
+
+        "validation": {
+
+           "scoring_type": "exactMatch",
+
+           "valid_response": {
+
+              "score": 1,
+
+              "value": [
+
+                 "2"
+
+              ]
+
+           }
+
+        },
+
+        "ui_style": {
+
+           "type": "horizontal"
+
+        }
+
+     },
+
+     "metadata": {
+
+        "name": "Multiple choice – standard",
+
+        "template_reference": "9e8149bd-e4d8-4dd6-a751-1a113a4b9163"
+
+     }
+
+  }
+]
+}
+
+
