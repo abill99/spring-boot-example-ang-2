@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import employee from './employee.json'
 import ledata from './formatted_data.json'
+import { pluck, pluck2 } from './dataSplitter.js'
 
 class App extends Component {
 
@@ -50,9 +51,21 @@ class App extends Component {
 
             <div >
             <ul>
+
+            {console.log("PLUCK2>>>>>>>>>")}
+            {console.log(ledata.info)}
+
+
+                {pluck2(ledata.info, 'type')}
+                {pluck2(ledata.info, 'widget_type')}
+                
+                {pluck2(ledata.info, 'stimulus')}
+                
+    
                 {ledata.info.map(
                 (record, i) => 
-                <li key={i}>{record.type} - {record.widget_type} {record.reference}
+                
+                <li key={i}>{record.type} - {record.widget_type}  {console.log(record)}
                  <p>789</p>
                 {
                 //record.keys.forEach ((values,keys)=><p>910</p>)
@@ -66,6 +79,7 @@ class App extends Component {
 
             <div >
             <ul>
+           
             {ledata.info.map(
                 (record, i) => 
                 <li key={i}>{console.log("KEYSSSS"+ record.keys)}{record.type} - {record.widget_type} {record.reference}
@@ -76,32 +90,6 @@ class App extends Component {
             </ul>
             </div>
 
-            <div >
-            <ul>
-            {ledata.info.map((record, i) => 
-                <li>
-                {console.log(record)}
-                <p>----------------------------</p>
-                {i}:{record.type} 
-                <p>----</p>
-                <ul><li > {record.widget_type}  </li></ul>
-                <ul><li>{record.reference} </li></ul>
-                {console.log(Object.keys(record))}
-                <ul><li>{/*JSON.stringify(record)*/}</li></ul>
-                {(Object.keys(record)).forEach(
-                    (element) => 
-                    <ul><li>
-                        <p>-45---</p>
-                    //{console.log(element.constructor.name +" : " +element.toString())}
-                    {element.constructor.name}
-                    
-                    </li></ul>
-                )}
-                </li>)
-            }
-
-            </ul>
-            </div>
             </header>
             <p className="App-intro">
             To get started, edit <code>src/App.js</code> and save to reload.
